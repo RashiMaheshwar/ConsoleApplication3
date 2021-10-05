@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Assignment_programs
 {
     class ArmstrongNumber
-    {
+    {//new line added
         static void Main(string[] args)
         {
             Console.WriteLine("enter the number");
@@ -18,7 +18,7 @@ namespace Assignment_programs
             while (num != 0)
             {
                 int rem = num % 10;
-                result = result + rem * rem * rem;
+                result = result + rem * rem * rem; 
                 num = num / 10;
             }
 
