@@ -13,7 +13,7 @@ namespace Assignment_programs
             Console.WriteLine("enter the number");
             int number = int.Parse(Console.ReadLine());
             int result = 0;
-            int num = number;
+            int num = number;//
 
             while (num != 0)
             {
